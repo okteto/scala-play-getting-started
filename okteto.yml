@@ -1,0 +1,11 @@
+name: app
+command: bash
+sync:
+- .:/usr/src/app
+forward:
+- 9000:9000
+- 5005:5005
+volumes:
+  - /root/.cache
+  - /root/.sbt
+  - /root/.ivy2

@@ -1,1 +1,1 @@
-sbt -jvm-debug 5005
+sbt -jvm-debug 5005 run
